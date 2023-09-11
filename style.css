@@ -1,0 +1,15 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 90vw;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 150px;
+    margin: 15px;
+}
+.card:hover{
+    
+}
