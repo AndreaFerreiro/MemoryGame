@@ -1,15 +1,22 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
 .grid{
     display: flex;
     flex-wrap: wrap;
-    height: 400px;
-    width: 90vw;
+    width: 80vw;
     align-items: center;
     justify-content: center;
 }
 .card{
     width: 150px;
     margin: 15px;
+    border-radius: 15px;
 }
 .card:hover{
-    
+
 }
