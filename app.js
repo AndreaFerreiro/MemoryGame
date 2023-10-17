@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
     var cardsChoosenId = []
     var cardsWon = []
     const grid = document.querySelector('.grid')
-    const resultDisplay = document.querySelector('result')
+    const resultDisplay = document.querySelector('#result')
     function createBoard () {
         for (let i=0; i<cardArray.length; i++){
             var card = document.createElement('img')
@@ -76,7 +76,6 @@ document.addEventListener('DOMContentLoaded', () => {
             card[optoinOneId].setAttribute('src','images/blanco.jpeg')
             card[optoinTwoId].setAttribute ('src', 'images/blanco.jpeg')
             cardsWon.push(cardsChoosen)
-            resultDisplay.textContent = cardsWon.length/2
         } else {
             card[optoinOneId].setAttribute('src','images/carta.jpeg')
             card[optoinTwoId].setAttribute('src','images/carta.jpeg')
@@ -84,6 +83,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         cardsChoosen = []
         cardsChoosenId = []
+        console.log(cardsWon)
+        resultDisplay.textContent = cardsWon.length
         if (cardsWon.length === cardArray.length/2){
             resultDisplay.textContent = 'Enhorabuena! Has encontrado todas las parejas!'
         }
