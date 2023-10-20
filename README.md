@@ -1,10 +1,10 @@
 # Individual project: Memory Game
 
 ## Summary
-Memory Game is a game where you have to found all of the pairs of cards.
+Memory Game is a game where you have to find all of the pairs of cards.
 
 ## How it works
-Make click on the cards to turn them and see what animal is drawn on it. Continue turning cards until you get all the pairs.
+Click on the cards to turn them and see what animal is drawn on them. Continue turning cards until you get all the pairs.
 
 ## Owner: 👩🏻‍💻
 
